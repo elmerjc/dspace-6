@@ -1,0 +1,1184 @@
+2017-07-19 15:43:49,835 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F3A9389231878BC097A2025719DF1023:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 15:43:51,290 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-19 16:24:54,190 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:C:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-07-19 16:24:54,274 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2017-07-19 16:24:54,315 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-07-19 16:24:54,486 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-07-19 16:24:54,516 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2017-07-19 16:24:55,020 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-07-19 16:24:55,031 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2017-07-19 16:24:55,036 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2017-07-19 16:24:55,040 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2017-07-19 16:24:55,092 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:C:/dspace/config/hibernate.cfg.xml
+2017-07-19 16:24:55,210 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2017-07-19 16:24:55,548 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2017-07-19 16:24:55,580 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-19 16:24:55,600 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@6d56eae1
+2017-07-19 16:24:55,600 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@553270df
+2017-07-19 16:24:56,192 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.eperson.Group2GroupCache
+2017-07-19 16:24:56,192 WARN  org.hibernate.mapping.RootClass @ HHH000038: Composite-id class does not override equals(): org.dspace.checker.MostRecentChecksum
+2017-07-19 16:24:56,194 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.checker.MostRecentChecksum
+2017-07-19 16:24:56,207 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-19 16:24:56,219 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2017-07-19 16:24:56,295 WARN  net.sf.ehcache.config.ConfigurationFactory @ No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.5/webapps/jspui/WEB-INF/lib/ehcache-core-2.4.3.jar!/ehcache-failsafe.xml
+2017-07-19 16:24:56,314 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@1483a91b.
+The diskStore path for this CacheManager will be set to C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp\ehcache_auto_created_1500506696314.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2017-07-19 16:24:56,317 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-07-19 16:24:56,324 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-07-19 16:24:56,387 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-07-19 16:24:56,388 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-07-19 16:24:56,431 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataSchema]; using defaults.
+2017-07-19 16:24:56,838 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataField]; using defaults.
+2017-07-19 16:24:57,207 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2017-07-19 16:24:57,207 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2017-07-19 16:24:57,229 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2017-07-19 16:24:57,230 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2017-07-19 16:24:57,236 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2017-07-19 16:24:57,237 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2017-07-19 16:24:57,250 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2017-07-19 16:24:57,250 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2017-07-19 16:24:57,256 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2017-07-19 16:24:57,256 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2017-07-19 16:24:57,262 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2017-07-19 16:24:57,262 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2017-07-19 16:24:57,269 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2017-07-19 16:24:57,269 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2017-07-19 16:24:57,275 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2017-07-19 16:24:57,275 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2017-07-19 16:24:57,282 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2017-07-19 16:24:57,282 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2017-07-19 16:24:57,287 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2017-07-19 16:24:57,288 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2017-07-19 16:24:57,294 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2017-07-19 16:24:57,294 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2017-07-19 16:24:57,300 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2017-07-19 16:24:57,300 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2017-07-19 16:24:57,307 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2017-07-19 16:24:57,307 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2017-07-19 16:24:57,313 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2017-07-19 16:24:57,313 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2017-07-19 16:24:57,319 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2017-07-19 16:24:57,319 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2017-07-19 16:24:57,326 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2017-07-19 16:24:57,326 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2017-07-19 16:24:57,332 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2017-07-19 16:24:57,332 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2017-07-19 16:24:57,338 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2017-07-19 16:24:57,338 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2017-07-19 16:24:57,344 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2017-07-19 16:24:57,345 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2017-07-19 16:24:57,350 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2017-07-19 16:24:57,350 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2017-07-19 16:24:57,357 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2017-07-19 16:24:57,357 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2017-07-19 16:24:57,379 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2017-07-19 16:24:57,379 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2017-07-19 16:24:57,388 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2017-07-19 16:24:57,388 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2017-07-19 16:24:57,415 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2017-07-19 16:24:57,415 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2017-07-19 16:24:57,422 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2017-07-19 16:24:57,422 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2017-07-19 16:24:57,464 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2017-07-19 16:24:57,464 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2017-07-19 16:24:57,471 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2017-07-19 16:24:57,471 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2017-07-19 16:24:57,477 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2017-07-19 16:24:57,477 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2017-07-19 16:24:57,490 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2017-07-19 16:24:57,491 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2017-07-19 16:24:57,501 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2017-07-19 16:24:57,501 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2017-07-19 16:24:57,509 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2017-07-19 16:24:57,509 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2017-07-19 16:24:57,515 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2017-07-19 16:24:57,515 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2017-07-19 16:24:57,523 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2017-07-19 16:24:57,524 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2017-07-19 16:24:57,532 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2017-07-19 16:24:57,532 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2017-07-19 16:24:57,542 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2017-07-19 16:24:57,542 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2017-07-19 16:24:57,548 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2017-07-19 16:24:57,548 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2017-07-19 16:24:57,555 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2017-07-19 16:24:57,555 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2017-07-19 16:24:57,560 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2017-07-19 16:24:57,560 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2017-07-19 16:24:57,566 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2017-07-19 16:24:57,566 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2017-07-19 16:24:57,571 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2017-07-19 16:24:57,571 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2017-07-19 16:24:57,579 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2017-07-19 16:24:57,579 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2017-07-19 16:24:58,100 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2017-07-19 16:24:58,100 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2017-07-19 16:24:58,102 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:C:/dspace/config/GeoLiteCity.dat
+2017-07-19 16:24:58,182 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2017-07-19 16:25:13,891 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:C:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-07-19 16:25:13,922 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2017-07-19 16:25:13,955 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-07-19 16:25:14,099 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-07-19 16:25:14,127 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2017-07-19 16:25:14,392 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-07-19 16:25:14,404 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2017-07-19 16:25:14,408 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2017-07-19 16:25:14,411 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2017-07-19 16:25:14,466 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:C:/dspace/config/hibernate.cfg.xml
+2017-07-19 16:25:14,562 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2017-07-19 16:25:14,880 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2017-07-19 16:25:14,906 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-19 16:25:14,930 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@3d539d20
+2017-07-19 16:25:14,930 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@629401da
+2017-07-19 16:25:15,436 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.eperson.Group2GroupCache
+2017-07-19 16:25:15,438 WARN  org.hibernate.mapping.RootClass @ HHH000038: Composite-id class does not override equals(): org.dspace.checker.MostRecentChecksum
+2017-07-19 16:25:15,438 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.checker.MostRecentChecksum
+2017-07-19 16:25:15,449 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-19 16:25:15,460 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2017-07-19 16:25:15,534 WARN  net.sf.ehcache.config.ConfigurationFactory @ No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.5/webapps/jspui/WEB-INF/lib/ehcache-core-2.4.3.jar!/ehcache-failsafe.xml
+2017-07-19 16:25:15,548 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@4965fe0c.
+The diskStore path for this CacheManager will be set to C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp\ehcache_auto_created_1500506715548.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2017-07-19 16:25:15,554 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-07-19 16:25:15,568 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-07-19 16:25:15,615 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-07-19 16:25:15,615 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-07-19 16:25:15,654 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataSchema]; using defaults.
+2017-07-19 16:25:15,970 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataField]; using defaults.
+2017-07-19 16:25:16,259 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2017-07-19 16:25:16,259 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2017-07-19 16:25:16,278 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2017-07-19 16:25:16,278 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2017-07-19 16:25:16,284 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2017-07-19 16:25:16,284 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2017-07-19 16:25:16,292 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2017-07-19 16:25:16,292 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2017-07-19 16:25:16,299 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2017-07-19 16:25:16,299 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2017-07-19 16:25:16,305 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2017-07-19 16:25:16,307 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2017-07-19 16:25:16,314 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2017-07-19 16:25:16,314 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2017-07-19 16:25:16,319 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2017-07-19 16:25:16,319 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2017-07-19 16:25:16,325 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2017-07-19 16:25:16,327 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2017-07-19 16:25:16,333 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2017-07-19 16:25:16,333 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2017-07-19 16:25:16,341 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2017-07-19 16:25:16,341 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2017-07-19 16:25:16,346 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2017-07-19 16:25:16,347 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2017-07-19 16:25:16,352 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2017-07-19 16:25:16,352 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2017-07-19 16:25:16,358 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2017-07-19 16:25:16,358 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2017-07-19 16:25:16,366 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2017-07-19 16:25:16,366 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2017-07-19 16:25:16,372 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2017-07-19 16:25:16,372 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2017-07-19 16:25:16,378 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2017-07-19 16:25:16,378 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2017-07-19 16:25:16,384 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2017-07-19 16:25:16,384 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2017-07-19 16:25:16,392 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2017-07-19 16:25:16,392 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2017-07-19 16:25:16,398 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2017-07-19 16:25:16,398 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2017-07-19 16:25:16,404 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2017-07-19 16:25:16,404 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2017-07-19 16:25:16,410 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2017-07-19 16:25:16,410 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2017-07-19 16:25:16,416 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2017-07-19 16:25:16,416 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2017-07-19 16:25:16,422 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2017-07-19 16:25:16,422 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2017-07-19 16:25:16,429 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2017-07-19 16:25:16,430 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2017-07-19 16:25:16,436 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2017-07-19 16:25:16,436 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2017-07-19 16:25:16,442 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2017-07-19 16:25:16,442 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2017-07-19 16:25:16,448 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2017-07-19 16:25:16,448 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2017-07-19 16:25:16,455 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2017-07-19 16:25:16,455 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2017-07-19 16:25:16,461 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2017-07-19 16:25:16,461 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2017-07-19 16:25:16,468 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2017-07-19 16:25:16,468 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2017-07-19 16:25:16,474 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2017-07-19 16:25:16,474 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2017-07-19 16:25:16,480 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2017-07-19 16:25:16,480 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2017-07-19 16:25:16,487 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2017-07-19 16:25:16,487 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2017-07-19 16:25:16,497 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2017-07-19 16:25:16,497 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2017-07-19 16:25:16,502 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2017-07-19 16:25:16,502 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2017-07-19 16:25:16,507 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2017-07-19 16:25:16,507 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2017-07-19 16:25:16,513 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2017-07-19 16:25:16,513 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2017-07-19 16:25:16,518 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2017-07-19 16:25:16,519 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2017-07-19 16:25:16,527 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2017-07-19 16:25:16,527 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2017-07-19 16:25:16,534 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2017-07-19 16:25:16,534 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2017-07-19 16:25:16,984 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2017-07-19 16:25:16,984 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2017-07-19 16:25:16,986 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:C:/dspace/config/GeoLiteCity.dat
+2017-07-19 16:25:17,051 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2017-07-19 16:25:33,702 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:C:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-07-19 16:25:33,732 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2017-07-19 16:25:33,766 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-07-19 16:25:33,910 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-07-19 16:25:33,935 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2017-07-19 16:25:34,203 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-07-19 16:25:34,216 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2017-07-19 16:25:34,229 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2017-07-19 16:25:34,231 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2017-07-19 16:25:34,283 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:C:/dspace/config/hibernate.cfg.xml
+2017-07-19 16:25:34,434 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2017-07-19 16:25:34,759 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2017-07-19 16:25:34,788 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-19 16:25:34,805 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@79197e40
+2017-07-19 16:25:34,806 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@10fa7c81
+2017-07-19 16:25:35,295 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.eperson.Group2GroupCache
+2017-07-19 16:25:35,296 WARN  org.hibernate.mapping.RootClass @ HHH000038: Composite-id class does not override equals(): org.dspace.checker.MostRecentChecksum
+2017-07-19 16:25:35,296 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.checker.MostRecentChecksum
+2017-07-19 16:25:35,310 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-19 16:25:35,322 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2017-07-19 16:25:35,395 WARN  net.sf.ehcache.config.ConfigurationFactory @ No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.5/webapps/oai/WEB-INF/lib/ehcache-core-2.4.3.jar!/ehcache-failsafe.xml
+2017-07-19 16:25:35,410 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@7943a783.
+The diskStore path for this CacheManager will be set to C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp\ehcache_auto_created_1500506735410.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2017-07-19 16:25:35,413 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-07-19 16:25:35,418 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-07-19 16:25:35,472 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-07-19 16:25:35,473 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-07-19 16:25:35,515 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataSchema]; using defaults.
+2017-07-19 16:25:35,843 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataField]; using defaults.
+2017-07-19 16:25:36,176 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2017-07-19 16:25:36,176 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2017-07-19 16:25:36,195 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2017-07-19 16:25:36,195 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2017-07-19 16:25:36,205 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2017-07-19 16:25:36,205 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2017-07-19 16:25:36,211 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2017-07-19 16:25:36,212 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2017-07-19 16:25:36,217 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2017-07-19 16:25:36,218 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2017-07-19 16:25:36,223 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2017-07-19 16:25:36,223 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2017-07-19 16:25:36,232 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2017-07-19 16:25:36,232 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2017-07-19 16:25:36,240 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2017-07-19 16:25:36,240 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2017-07-19 16:25:36,252 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2017-07-19 16:25:36,252 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2017-07-19 16:25:36,260 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2017-07-19 16:25:36,260 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2017-07-19 16:25:36,272 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2017-07-19 16:25:36,273 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2017-07-19 16:25:36,279 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2017-07-19 16:25:36,279 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2017-07-19 16:25:36,284 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2017-07-19 16:25:36,284 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2017-07-19 16:25:36,290 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2017-07-19 16:25:36,290 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2017-07-19 16:25:36,298 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2017-07-19 16:25:36,298 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2017-07-19 16:25:36,305 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2017-07-19 16:25:36,305 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2017-07-19 16:25:36,311 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2017-07-19 16:25:36,311 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2017-07-19 16:25:36,316 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2017-07-19 16:25:36,316 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2017-07-19 16:25:36,325 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2017-07-19 16:25:36,325 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2017-07-19 16:25:36,331 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2017-07-19 16:25:36,331 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2017-07-19 16:25:36,337 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2017-07-19 16:25:36,337 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2017-07-19 16:25:36,342 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2017-07-19 16:25:36,343 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2017-07-19 16:25:36,349 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2017-07-19 16:25:36,349 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2017-07-19 16:25:36,355 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2017-07-19 16:25:36,355 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2017-07-19 16:25:36,362 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2017-07-19 16:25:36,362 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2017-07-19 16:25:36,368 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2017-07-19 16:25:36,368 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2017-07-19 16:25:36,374 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2017-07-19 16:25:36,374 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2017-07-19 16:25:36,380 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2017-07-19 16:25:36,380 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2017-07-19 16:25:36,385 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2017-07-19 16:25:36,385 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2017-07-19 16:25:36,393 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2017-07-19 16:25:36,393 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2017-07-19 16:25:36,400 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2017-07-19 16:25:36,400 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2017-07-19 16:25:36,405 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2017-07-19 16:25:36,405 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2017-07-19 16:25:36,411 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2017-07-19 16:25:36,411 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2017-07-19 16:25:36,417 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2017-07-19 16:25:36,417 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2017-07-19 16:25:36,426 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2017-07-19 16:25:36,426 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2017-07-19 16:25:36,432 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2017-07-19 16:25:36,432 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2017-07-19 16:25:36,437 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2017-07-19 16:25:36,437 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2017-07-19 16:25:36,442 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2017-07-19 16:25:36,442 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2017-07-19 16:25:36,447 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2017-07-19 16:25:36,447 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2017-07-19 16:25:36,453 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2017-07-19 16:25:36,453 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2017-07-19 16:25:36,461 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2017-07-19 16:25:36,461 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2017-07-19 16:25:36,906 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2017-07-19 16:25:36,906 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2017-07-19 16:25:36,907 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:C:/dspace/config/GeoLiteCity.dat
+2017-07-19 16:25:36,974 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2017-07-19 16:26:10,368 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2017-07-19 16:26:10,368 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2017-07-19 16:26:10,368 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:C:/dspace/config/GeoLiteCity.dat
+2017-07-19 16:26:10,437 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2017-07-19 16:26:10,995 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:C:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-07-19 16:26:11,023 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2017-07-19 16:26:11,059 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-07-19 16:26:11,198 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-07-19 16:26:11,238 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2017-07-19 16:26:11,526 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-07-19 16:26:11,540 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2017-07-19 16:26:11,544 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2017-07-19 16:26:11,547 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2017-07-19 16:26:11,603 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:C:/dspace/config/hibernate.cfg.xml
+2017-07-19 16:26:11,723 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2017-07-19 16:26:12,048 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2017-07-19 16:26:12,078 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-19 16:26:12,096 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@1724ba2d
+2017-07-19 16:26:12,096 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@458c6dfc
+2017-07-19 16:26:12,563 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.eperson.Group2GroupCache
+2017-07-19 16:26:12,564 WARN  org.hibernate.mapping.RootClass @ HHH000038: Composite-id class does not override equals(): org.dspace.checker.MostRecentChecksum
+2017-07-19 16:26:12,564 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.checker.MostRecentChecksum
+2017-07-19 16:26:12,578 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-19 16:26:12,589 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2017-07-19 16:26:12,671 WARN  net.sf.ehcache.config.ConfigurationFactory @ No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.5/webapps/rest/WEB-INF/lib/ehcache-core-2.4.3.jar!/ehcache-failsafe.xml
+2017-07-19 16:26:12,684 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@67806f75.
+The diskStore path for this CacheManager will be set to C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp\ehcache_auto_created_1500506772684.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2017-07-19 16:26:12,687 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-07-19 16:26:12,693 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-07-19 16:26:12,740 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-07-19 16:26:12,741 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-07-19 16:26:12,806 INFO  org.hibernate.validator.internal.util.Version @ HV000001: Hibernate Validator 5.1.2.Final
+2017-07-19 16:26:13,345 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataSchema]; using defaults.
+2017-07-19 16:26:13,700 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataField]; using defaults.
+2017-07-19 16:26:14,011 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2017-07-19 16:26:14,011 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2017-07-19 16:26:14,034 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2017-07-19 16:26:14,034 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2017-07-19 16:26:14,041 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2017-07-19 16:26:14,042 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2017-07-19 16:26:14,048 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2017-07-19 16:26:14,049 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2017-07-19 16:26:14,056 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2017-07-19 16:26:14,056 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2017-07-19 16:26:14,062 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2017-07-19 16:26:14,062 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2017-07-19 16:26:14,072 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2017-07-19 16:26:14,072 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2017-07-19 16:26:14,082 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2017-07-19 16:26:14,082 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2017-07-19 16:26:14,088 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2017-07-19 16:26:14,088 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2017-07-19 16:26:14,095 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2017-07-19 16:26:14,095 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2017-07-19 16:26:14,103 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2017-07-19 16:26:14,103 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2017-07-19 16:26:14,110 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2017-07-19 16:26:14,110 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2017-07-19 16:26:14,116 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2017-07-19 16:26:14,116 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2017-07-19 16:26:14,122 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2017-07-19 16:26:14,122 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2017-07-19 16:26:14,128 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2017-07-19 16:26:14,129 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2017-07-19 16:26:14,137 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2017-07-19 16:26:14,137 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2017-07-19 16:26:14,144 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2017-07-19 16:26:14,144 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2017-07-19 16:26:14,151 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2017-07-19 16:26:14,151 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2017-07-19 16:26:14,158 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2017-07-19 16:26:14,158 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2017-07-19 16:26:14,166 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2017-07-19 16:26:14,166 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2017-07-19 16:26:14,175 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2017-07-19 16:26:14,175 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2017-07-19 16:26:14,182 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2017-07-19 16:26:14,182 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2017-07-19 16:26:14,189 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2017-07-19 16:26:14,189 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2017-07-19 16:26:14,199 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2017-07-19 16:26:14,199 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2017-07-19 16:26:14,206 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2017-07-19 16:26:14,206 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2017-07-19 16:26:14,223 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2017-07-19 16:26:14,223 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2017-07-19 16:26:14,242 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2017-07-19 16:26:14,242 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2017-07-19 16:26:14,248 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2017-07-19 16:26:14,248 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2017-07-19 16:26:14,260 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2017-07-19 16:26:14,260 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2017-07-19 16:26:14,269 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2017-07-19 16:26:14,269 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2017-07-19 16:26:14,276 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2017-07-19 16:26:14,276 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2017-07-19 16:26:14,282 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2017-07-19 16:26:14,282 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2017-07-19 16:26:14,288 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2017-07-19 16:26:14,288 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2017-07-19 16:26:14,296 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2017-07-19 16:26:14,296 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2017-07-19 16:26:14,306 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2017-07-19 16:26:14,306 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2017-07-19 16:26:14,312 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2017-07-19 16:26:14,312 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2017-07-19 16:26:14,319 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2017-07-19 16:26:14,319 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2017-07-19 16:26:14,326 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2017-07-19 16:26:14,326 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2017-07-19 16:26:14,332 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2017-07-19 16:26:14,332 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2017-07-19 16:26:14,338 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2017-07-19 16:26:14,338 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2017-07-19 16:26:14,345 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2017-07-19 16:26:14,346 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2017-07-19 16:27:23,313 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:C:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-07-19 16:27:23,349 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2017-07-19 16:27:23,392 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-07-19 16:27:23,571 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-07-19 16:27:23,599 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2017-07-19 16:27:23,946 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-07-19 16:27:23,961 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2017-07-19 16:27:23,966 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2017-07-19 16:27:23,968 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2017-07-19 16:27:24,026 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:C:/dspace/config/hibernate.cfg.xml
+2017-07-19 16:27:24,188 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2017-07-19 16:27:24,554 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2017-07-19 16:27:24,586 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-19 16:27:24,607 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@5fa789a5
+2017-07-19 16:27:24,607 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6322625b
+2017-07-19 16:27:25,140 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.eperson.Group2GroupCache
+2017-07-19 16:27:25,141 WARN  org.hibernate.mapping.RootClass @ HHH000038: Composite-id class does not override equals(): org.dspace.checker.MostRecentChecksum
+2017-07-19 16:27:25,141 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.checker.MostRecentChecksum
+2017-07-19 16:27:25,154 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-19 16:27:25,166 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2017-07-19 16:27:25,293 WARN  net.sf.ehcache.config.ConfigurationFactory @ No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.5/webapps/xmlui/WEB-INF/lib/ehcache-core-2.4.3.jar!/ehcache-failsafe.xml
+2017-07-19 16:27:25,307 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@6d2bab75.
+The diskStore path for this CacheManager will be set to C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp\ehcache_auto_created_1500506845306.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2017-07-19 16:27:25,310 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-07-19 16:27:25,315 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-07-19 16:27:25,363 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-07-19 16:27:25,364 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-07-19 16:27:25,414 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataSchema]; using defaults.
+2017-07-19 16:27:25,815 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataField]; using defaults.
+2017-07-19 16:27:26,199 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2017-07-19 16:27:26,199 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2017-07-19 16:27:26,219 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2017-07-19 16:27:26,219 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2017-07-19 16:27:26,226 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2017-07-19 16:27:26,226 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2017-07-19 16:27:26,232 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2017-07-19 16:27:26,235 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2017-07-19 16:27:26,245 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2017-07-19 16:27:26,245 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2017-07-19 16:27:26,250 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2017-07-19 16:27:26,250 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2017-07-19 16:27:26,257 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2017-07-19 16:27:26,257 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2017-07-19 16:27:26,265 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2017-07-19 16:27:26,265 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2017-07-19 16:27:26,273 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2017-07-19 16:27:26,274 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2017-07-19 16:27:26,280 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2017-07-19 16:27:26,280 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2017-07-19 16:27:26,286 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2017-07-19 16:27:26,286 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2017-07-19 16:27:26,291 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2017-07-19 16:27:26,291 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2017-07-19 16:27:26,298 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2017-07-19 16:27:26,298 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2017-07-19 16:27:26,304 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2017-07-19 16:27:26,305 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2017-07-19 16:27:26,314 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2017-07-19 16:27:26,314 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2017-07-19 16:27:26,320 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2017-07-19 16:27:26,320 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2017-07-19 16:27:26,326 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2017-07-19 16:27:26,326 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2017-07-19 16:27:26,332 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2017-07-19 16:27:26,332 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2017-07-19 16:27:26,338 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2017-07-19 16:27:26,338 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2017-07-19 16:27:26,344 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2017-07-19 16:27:26,344 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2017-07-19 16:27:26,350 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2017-07-19 16:27:26,350 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2017-07-19 16:27:26,356 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2017-07-19 16:27:26,356 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2017-07-19 16:27:26,363 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2017-07-19 16:27:26,363 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2017-07-19 16:27:26,371 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2017-07-19 16:27:26,371 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2017-07-19 16:27:26,378 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2017-07-19 16:27:26,378 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2017-07-19 16:27:26,384 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2017-07-19 16:27:26,384 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2017-07-19 16:27:26,393 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2017-07-19 16:27:26,393 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2017-07-19 16:27:26,403 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2017-07-19 16:27:26,404 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2017-07-19 16:27:26,411 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2017-07-19 16:27:26,412 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2017-07-19 16:27:26,418 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2017-07-19 16:27:26,418 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2017-07-19 16:27:26,423 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2017-07-19 16:27:26,423 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2017-07-19 16:27:26,429 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2017-07-19 16:27:26,429 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2017-07-19 16:27:26,435 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2017-07-19 16:27:26,436 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2017-07-19 16:27:26,441 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2017-07-19 16:27:26,441 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2017-07-19 16:27:26,456 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2017-07-19 16:27:26,456 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2017-07-19 16:27:26,463 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2017-07-19 16:27:26,463 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2017-07-19 16:27:26,469 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2017-07-19 16:27:26,469 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2017-07-19 16:27:26,477 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2017-07-19 16:27:26,477 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2017-07-19 16:27:26,484 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2017-07-19 16:27:26,484 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2017-07-19 16:27:26,492 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2017-07-19 16:27:26,492 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2017-07-19 16:27:26,497 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2017-07-19 16:27:26,497 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2017-07-19 16:27:29,425 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2017-07-19 16:27:29,426 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2017-07-19 16:27:29,426 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:C:/dspace/config/GeoLiteCity.dat
+2017-07-19 16:27:29,550 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2017-07-19 16:27:29,591 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: C:/dspace\config\xmlui.xconf
+2017-07-19 16:27:29,937 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2017-07-19 16:27:29,937 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2017-07-19 16:27:29,937 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2017-07-19 16:27:29,937 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2017-07-19 16:27:29,937 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2017-07-19 16:27:29,937 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2017-07-19 16:27:29,937 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2017-07-19 16:27:29,937 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2017-07-19 16:27:29,938 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2017-07-19 16:27:32,656 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B2676E68F1EC19FCDDC14AAFC4A56B0E:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:27:32,657 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A2005F35E882A490F90CE34B3CE91D66:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:27:33,237 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-19 16:27:33,258 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-19 16:27:33,457 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-19 16:27:33,458 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-19 16:27:33,480 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-19 16:27:33,488 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-19 16:28:02,973 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=6ED2F1BBACB4872D1FE1B8F1FB660C14:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:28:03,327 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-19 16:28:06,656 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-19 16:28:06,656 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-19 16:30:11,260 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=6ED2F1BBACB4872D1FE1B8F1FB660C14:ip_addr=0:0:0:0:0:0:0:1:authenticate:attempting password auth of user=damachi@neumann.edu.pe
+2017-07-19 16:30:11,411 INFO  org.dspace.authenticate.PasswordAuthentication @ damachi@neumann.edu.pe:session_id=6ED2F1BBACB4872D1FE1B8F1FB660C14:ip_addr=0:0:0:0:0:0:0:1:authenticate:type=PasswordAuthentication
+2017-07-19 16:30:11,416 INFO  org.dspace.eperson.EPersonServiceImpl @ damachi@neumann.edu.pe:session_id=6ED2F1BBACB4872D1FE1B8F1FB660C14:ip_addr=0:0:0:0:0:0:0:1:update_eperson:eperson_id=5623ca3c-763b-4cc2-aa10-8a745c033a08
+2017-07-19 16:30:11,791 INFO  org.dspace.app.webui.servlet.PasswordServlet @ damachi@neumann.edu.pe:session_id=6ED2F1BBACB4872D1FE1B8F1FB660C14:ip_addr=0:0:0:0:0:0:0:1:login:type=explicit
+2017-07-19 16:30:11,888 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_mydspace:
+2017-07-19 16:31:16,472 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:31:16,481 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-19 16:31:16,512 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-19 16:31:16,512 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-19 16:31:31,819 INFO  org.dspace.app.webui.servlet.admin.MetadataSchemaRegistryServlet @ Showing Schemas
+2017-07-19 16:33:01,622 INFO  org.dspace.content.MetadataSchemaServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_metadata_schema:metadata_schema_id=5
+2017-07-19 16:33:01,661 INFO  org.dspace.app.webui.servlet.admin.MetadataSchemaRegistryServlet @ Showing Schemas
+2017-07-19 16:34:18,706 INFO  org.dspace.app.webui.servlet.admin.MetadataSchemaRegistryServlet @ Showing Schemas
+2017-07-19 16:35:20,820 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_metadata_field:metadata_field_id=133
+2017-07-19 16:35:20,920 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_metadatafieldregistry:metadata_field_id=133element=degreequalifier=name
+2017-07-19 16:35:33,383 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_metadata_field:metadata_field_id=134
+2017-07-19 16:35:33,388 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_metadatafieldregistry:metadata_field_id=134element=degreequalifier=grantor
+2017-07-19 16:35:44,597 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_metadata_field:metadata_field_id=135
+2017-07-19 16:35:44,600 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_metadatafieldregistry:metadata_field_id=135element=degreequalifier=level
+2017-07-19 16:36:13,433 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_metadata_field:metadata_field_id=136
+2017-07-19 16:36:13,437 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_metadatafieldregistry:metadata_field_id=136element=degreequalifier=discipline
+2017-07-19 16:36:29,162 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_metadata_field:metadata_field_id=137
+2017-07-19 16:36:29,173 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_metadatafieldregistry:metadata_field_id=137element=degreequalifier=program
+2017-07-19 16:37:33,590 INFO  org.dspace.app.webui.servlet.admin.MetadataSchemaRegistryServlet @ Showing Schemas
+2017-07-19 16:38:31,400 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_metadata_field:metadata_field_id=138
+2017-07-19 16:38:31,402 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_metadatafieldregistry:metadata_field_id=138element=identifierqualifier=journal
+2017-07-19 16:39:09,941 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_metadata_field:metadata_field_id=139
+2017-07-19 16:39:09,943 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_metadatafieldregistry:metadata_field_id=139element=descriptionqualifier=peer-review
+2017-07-19 16:39:22,859 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_metadata_field:metadata_field_id=140
+2017-07-19 16:39:22,862 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_metadatafieldregistry:metadata_field_id=140element=identifierqualifier=doi
+2017-07-19 16:39:54,102 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_metadata_field:metadata_field_id=141
+2017-07-19 16:39:54,104 INFO  org.dspace.content.MetadataFieldServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_metadatafieldregistry:metadata_field_id=141element=subjectqualifier=ocde
+2017-07-19 16:41:05,529 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-07-19 16:49:20,813 WARN  org.dspace.app.util.Util @ Unable to recoginze UUID from String "null". Will return null.
+java.lang.IllegalArgumentException: Invalid UUID string: null
+	at java.util.UUID.fromString(Unknown Source)
+	at org.dspace.app.util.Util.getUUIDParameter(Util.java:262)
+	at org.dspace.app.webui.servlet.admin.EditCommunitiesServlet.doDSPost(EditCommunitiesServlet.java:155)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:122)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:80)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.dspace.app.webui.filter.AdminOnlyFilter.doFilter(AdminOnlyFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-07-19 16:49:20,842 WARN  org.dspace.app.util.Util @ Unable to recoginze UUID from String "null". Will return null.
+java.lang.IllegalArgumentException: Invalid UUID string: null
+	at java.util.UUID.fromString(Unknown Source)
+	at org.dspace.app.util.Util.getUUIDParameter(Util.java:262)
+	at org.dspace.app.webui.servlet.admin.EditCommunitiesServlet.processConfirmEditCommunity(EditCommunitiesServlet.java:520)
+	at org.dspace.app.webui.servlet.admin.EditCommunitiesServlet.doDSPost(EditCommunitiesServlet.java:237)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:122)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:80)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.dspace.app.webui.filter.AdminOnlyFilter.doFilter(AdminOnlyFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-07-19 16:49:20,889 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2017-07-19 16:49:21,057 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955,handle=CONCYTEC/1
+2017-07-19 16:49:21,201 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:49:21,211 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:49:22,309 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Community: CONCYTEC/1 to Index
+2017-07-19 16:49:33,340 INFO  org.dspace.content.BitstreamServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:49:33,341 INFO  org.dspace.content.BitstreamServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:49:33,408 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:set_logo:community_id=10d9c498-292b-4dff-99cb-2211e00f4955logo_bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:49:33,456 INFO  org.dspace.content.BitstreamServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:49:33,468 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:49:33,625 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Community: CONCYTEC/1 to Index
+2017-07-19 16:49:33,663 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:invalid_bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:49:37,554 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=4
+2017-07-19 16:49:37,604 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=5
+2017-07-19 16:49:37,606 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:49:37,677 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Community: CONCYTEC/1 to Index
+2017-07-19 16:49:37,920 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:49:37,926 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:49:37,985 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@4036e498: 4
+2017-07-19 16:49:38,028 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:49:38,050 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  C:\dspace\config\spiders\agents\example
+2017-07-19 16:49:38,052 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  C:\dspace\config\spiders\agents\iplists.com-non_engines
+2017-07-19 16:49:38,070 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: C:\dspace\config\spiders\iplists.com-altavista.txt
+2017-07-19 16:49:38,070 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: C:\dspace\config\spiders\iplists.com-excite.txt
+2017-07-19 16:49:38,078 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: C:\dspace\config\spiders\iplists.com-google.txt
+2017-07-19 16:49:38,078 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: C:\dspace\config\spiders\iplists.com-infoseek.txt
+2017-07-19 16:49:38,080 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: C:\dspace\config\spiders\iplists.com-inktomi.txt
+2017-07-19 16:49:38,081 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: C:\dspace\config\spiders\iplists.com-lycos.txt
+2017-07-19 16:49:38,093 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: C:\dspace\config\spiders\iplists.com-misc.txt
+2017-07-19 16:49:38,095 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  C:\dspace\config\spiders\domains\example
+2017-07-19 16:49:39,058 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:49:39,060 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:50:41,307 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-07-19 16:50:41,466 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:50:41,467 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:50:59,561 WARN  org.dspace.app.util.Util @ Unable to recoginze UUID from String "null". Will return null.
+java.lang.IllegalArgumentException: Invalid UUID string: null
+	at java.util.UUID.fromString(Unknown Source)
+	at org.dspace.app.util.Util.getUUIDParameter(Util.java:262)
+	at org.dspace.app.webui.servlet.admin.EditCommunitiesServlet.doDSPost(EditCommunitiesServlet.java:155)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:122)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:80)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.dspace.app.webui.filter.AdminOnlyFilter.doFilter(AdminOnlyFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-07-19 16:50:59,562 WARN  org.dspace.app.util.Util @ Unable to recoginze UUID from String "null". Will return null.
+java.lang.IllegalArgumentException: Invalid UUID string: null
+	at java.util.UUID.fromString(Unknown Source)
+	at org.dspace.app.util.Util.getUUIDParameter(Util.java:262)
+	at org.dspace.app.webui.servlet.admin.EditCommunitiesServlet.processConfirmEditCommunity(EditCommunitiesServlet.java:520)
+	at org.dspace.app.webui.servlet.admin.EditCommunitiesServlet.doDSPost(EditCommunitiesServlet.java:237)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:122)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:80)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.dspace.app.webui.filter.AdminOnlyFilter.doFilter(AdminOnlyFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-07-19 16:50:59,564 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2017-07-19 16:50:59,607 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_community:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69,handle=CONCYTEC/2
+2017-07-19 16:50:59,740 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_community:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69
+2017-07-19 16:50:59,748 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_community:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69
+2017-07-19 16:50:59,888 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Community: CONCYTEC/2 to Index
+2017-07-19 16:51:05,084 INFO  org.dspace.content.BitstreamServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:51:05,084 INFO  org.dspace.content.BitstreamServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:51:05,148 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:set_logo:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69logo_bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:51:05,177 INFO  org.dspace.content.BitstreamServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:51:05,187 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_community:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69
+2017-07-19 16:51:05,272 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Community: CONCYTEC/2 to Index
+2017-07-19 16:51:05,484 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:51:05,484 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:51:08,644 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=10
+2017-07-19 16:51:08,649 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=11
+2017-07-19 16:51:08,667 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_community:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69
+2017-07-19 16:51:08,696 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Community: CONCYTEC/2 to Index
+2017-07-19 16:51:08,759 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69
+2017-07-19 16:51:08,760 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:51:08,774 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@35f9006: 4
+2017-07-19 16:51:08,813 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69
+2017-07-19 16:51:08,896 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:51:08,896 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:51:26,917 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-07-19 16:51:27,366 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:51:27,367 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:51:27,429 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:51:27,430 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:51:41,466 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:51:41,468 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:51:41,493 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@4036e498: 4
+2017-07-19 16:51:41,543 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:51:41,605 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:51:41,606 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:52:26,133 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2017-07-19 16:52:26,151 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_community:community_id=b0c32586-006f-4991-a507-7e505b3c50f2,handle=CONCYTEC/3
+2017-07-19 16:52:26,152 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:add_subcommunity:parent_comm_id=10d9c498-292b-4dff-99cb-2211e00f4955,child_comm_id=b0c32586-006f-4991-a507-7e505b3c50f2
+2017-07-19 16:52:26,180 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_community:community_id=b0c32586-006f-4991-a507-7e505b3c50f2
+2017-07-19 16:52:26,212 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Community: CONCYTEC/3 to Index
+2017-07-19 16:52:26,276 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=b0c32586-006f-4991-a507-7e505b3c50f2
+2017-07-19 16:52:26,276 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:52:26,307 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@4e97452a: 4
+2017-07-19 16:52:26,335 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=b0c32586-006f-4991-a507-7e505b3c50f2
+2017-07-19 16:52:31,275 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-07-19 16:52:31,438 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:52:31,439 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:52:31,547 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:52:31,548 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:52:35,889 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:52:35,890 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:52:35,908 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@4036e498: 4
+2017-07-19 16:52:35,951 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:52:36,091 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:52:36,152 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:52:49,242 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2017-07-19 16:52:49,266 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_community:community_id=b068164a-3fc2-4f93-84b8-a681775b3bcf,handle=CONCYTEC/4
+2017-07-19 16:52:49,271 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:add_subcommunity:parent_comm_id=10d9c498-292b-4dff-99cb-2211e00f4955,child_comm_id=b068164a-3fc2-4f93-84b8-a681775b3bcf
+2017-07-19 16:52:49,294 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_community:community_id=b068164a-3fc2-4f93-84b8-a681775b3bcf
+2017-07-19 16:52:49,334 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Community: CONCYTEC/4 to Index
+2017-07-19 16:52:49,368 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=b068164a-3fc2-4f93-84b8-a681775b3bcf
+2017-07-19 16:52:49,369 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:52:49,379 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@7c49c70c: 4
+2017-07-19 16:52:49,414 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=b068164a-3fc2-4f93-84b8-a681775b3bcf
+2017-07-19 16:52:54,786 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-07-19 16:52:54,969 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:52:54,970 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:52:54,997 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:52:55,004 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:52:58,213 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69
+2017-07-19 16:52:58,213 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:52:58,220 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@35f9006: 4
+2017-07-19 16:52:58,239 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69
+2017-07-19 16:52:58,302 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:52:58,302 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:53:20,367 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2017-07-19 16:53:20,375 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_community:community_id=c093d128-84e6-4420-b340-a23b1716c286,handle=CONCYTEC/5
+2017-07-19 16:53:20,377 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:add_subcommunity:parent_comm_id=8e98cb96-779c-4553-b046-693d4a1d6a69,child_comm_id=c093d128-84e6-4420-b340-a23b1716c286
+2017-07-19 16:53:20,386 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_community:community_id=c093d128-84e6-4420-b340-a23b1716c286
+2017-07-19 16:53:20,461 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Community: CONCYTEC/5 to Index
+2017-07-19 16:53:20,511 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=c093d128-84e6-4420-b340-a23b1716c286
+2017-07-19 16:53:20,511 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:53:20,525 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@e023f82a: 4
+2017-07-19 16:53:20,568 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=c093d128-84e6-4420-b340-a23b1716c286
+2017-07-19 16:53:25,770 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-07-19 16:53:26,158 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:53:26,158 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:53:26,198 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:53:26,200 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:54:23,417 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=b0c32586-006f-4991-a507-7e505b3c50f2
+2017-07-19 16:54:23,417 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:54:23,451 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@4e97452a: 4
+2017-07-19 16:54:23,494 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=b0c32586-006f-4991-a507-7e505b3c50f2
+2017-07-19 16:56:31,040 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_community:community_id=b0c32586-006f-4991-a507-7e505b3c50f2
+2017-07-19 16:56:31,050 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:remove_subcommunity:parent_comm_id=10d9c498-292b-4dff-99cb-2211e00f4955,child_comm_id=b0c32586-006f-4991-a507-7e505b3c50f2
+2017-07-19 16:56:31,065 WARN  org.dspace.discovery.IndexEventConsumer @ REMOVE event, could not get object for COMMUNITY id=b0c32586-006f-4991-a507-7e505b3c50f2, perhaps it has been deleted.
+2017-07-19 16:56:31,358 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:56:31,359 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:56:31,412 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@4036e498: 4
+2017-07-19 16:56:31,456 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:56:31,523 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:56:31,524 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:56:35,321 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:add_collection:community_id=10d9c498-292b-4dff-99cb-2211e00f4955,collection_id=c192cee8-4856-4a15-96ef-39cc38f6e91f
+2017-07-19 16:56:35,339 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2017-07-19 16:56:35,379 INFO  org.dspace.content.CollectionServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_collection:collection_id=c192cee8-4856-4a15-96ef-39cc38f6e91f,handle=CONCYTEC/6
+2017-07-19 16:56:35,946 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: CONCYTEC/6 to Index
+2017-07-19 16:57:02,739 INFO  org.dspace.eperson.GroupServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_group:group_id=ab837057-af7e-4f9c-98be-1e7a320fb2a5
+2017-07-19 16:57:02,743 INFO  org.dspace.eperson.GroupServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_group:group_id=ab837057-af7e-4f9c-98be-1e7a320fb2a5
+2017-07-19 16:57:02,824 INFO  org.dspace.eperson.GroupServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_group:group_id=ab837057-af7e-4f9c-98be-1e7a320fb2a5
+2017-07-19 16:57:02,855 INFO  org.dspace.content.CollectionServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_collection:collection_id=c192cee8-4856-4a15-96ef-39cc38f6e91f
+2017-07-19 16:57:03,198 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: CONCYTEC/6 to Index
+2017-07-19 16:57:14,044 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=22
+2017-07-19 16:57:14,061 INFO  org.dspace.content.CollectionServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_collection:collection_id=c192cee8-4856-4a15-96ef-39cc38f6e91f
+2017-07-19 16:57:23,528 INFO  org.dspace.eperson.GroupServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_group:group_id=ab837057-af7e-4f9c-98be-1e7a320fb2a5
+2017-07-19 16:57:38,465 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-07-19 16:57:38,579 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:57:38,580 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:57:38,634 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:57:38,635 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:57:55,594 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=b068164a-3fc2-4f93-84b8-a681775b3bcf
+2017-07-19 16:57:55,594 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:57:55,607 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@7c49c70c: 4
+2017-07-19 16:57:55,663 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=b068164a-3fc2-4f93-84b8-a681775b3bcf
+2017-07-19 16:58:08,456 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_community:community_id=b068164a-3fc2-4f93-84b8-a681775b3bcf
+2017-07-19 16:58:08,471 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:remove_subcommunity:parent_comm_id=10d9c498-292b-4dff-99cb-2211e00f4955,child_comm_id=b068164a-3fc2-4f93-84b8-a681775b3bcf
+2017-07-19 16:58:08,472 WARN  org.dspace.discovery.IndexEventConsumer @ REMOVE event, could not get object for COMMUNITY id=b068164a-3fc2-4f93-84b8-a681775b3bcf, perhaps it has been deleted.
+2017-07-19 16:58:08,561 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:58:08,561 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:58:08,571 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@4036e498: 4
+2017-07-19 16:58:08,643 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:58:08,747 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:58:08,748 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:58:32,240 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-07-19 16:58:32,397 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:58:32,398 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:58:32,398 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:58:32,401 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:58:36,059 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:58:36,059 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:58:36,065 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@4036e498: 4
+2017-07-19 16:58:36,092 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-19 16:58:36,162 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:58:36,163 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:58:39,378 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:add_collection:community_id=10d9c498-292b-4dff-99cb-2211e00f4955,collection_id=5a62b7a3-3372-4b37-9b33-c0c60549fd3d
+2017-07-19 16:58:39,380 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2017-07-19 16:58:39,387 INFO  org.dspace.content.CollectionServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_collection:collection_id=5a62b7a3-3372-4b37-9b33-c0c60549fd3d,handle=CONCYTEC/7
+2017-07-19 16:58:39,475 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: CONCYTEC/7 to Index
+2017-07-19 16:58:41,918 INFO  org.dspace.eperson.GroupServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_group:group_id=39b5cf2d-b4c7-4b04-b858-3513c87db1cf
+2017-07-19 16:58:41,922 INFO  org.dspace.eperson.GroupServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_group:group_id=39b5cf2d-b4c7-4b04-b858-3513c87db1cf
+2017-07-19 16:58:41,932 INFO  org.dspace.eperson.GroupServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_group:group_id=39b5cf2d-b4c7-4b04-b858-3513c87db1cf
+2017-07-19 16:58:41,944 INFO  org.dspace.content.CollectionServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_collection:collection_id=5a62b7a3-3372-4b37-9b33-c0c60549fd3d
+2017-07-19 16:58:41,992 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: CONCYTEC/7 to Index
+2017-07-19 16:58:50,266 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=29
+2017-07-19 16:58:50,289 INFO  org.dspace.content.CollectionServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_collection:collection_id=5a62b7a3-3372-4b37-9b33-c0c60549fd3d
+2017-07-19 16:58:57,800 INFO  org.dspace.eperson.GroupServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_group:group_id=39b5cf2d-b4c7-4b04-b858-3513c87db1cf
+2017-07-19 16:59:02,989 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=30
+2017-07-19 16:59:02,996 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=31
+2017-07-19 16:59:02,997 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=32
+2017-07-19 16:59:02,997 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=33
+2017-07-19 16:59:02,997 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=34
+2017-07-19 16:59:02,998 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=35
+2017-07-19 16:59:03,031 INFO  org.dspace.content.CollectionServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_collection:collection_id=5a62b7a3-3372-4b37-9b33-c0c60549fd3d
+2017-07-19 16:59:03,065 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_collection:collection_id=5a62b7a3-3372-4b37-9b33-c0c60549fd3d
+2017-07-19 16:59:03,076 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_by_item:
+2017-07-19 16:59:03,084 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f76b2787: 4
+2017-07-19 16:59:03,135 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_collection:collection_id=5a62b7a3-3372-4b37-9b33-c0c60549fd3d
+2017-07-19 16:59:09,789 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-07-19 16:59:09,912 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:59:09,913 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:59:09,984 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:59:09,984 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:59:12,203 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_collection:collection_id=c192cee8-4856-4a15-96ef-39cc38f6e91f
+2017-07-19 16:59:12,203 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_by_item:
+2017-07-19 16:59:12,212 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@27ddba46: 4
+2017-07-19 16:59:12,241 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_collection:collection_id=c192cee8-4856-4a15-96ef-39cc38f6e91f
+2017-07-19 16:59:18,779 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=23
+2017-07-19 16:59:18,783 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=24
+2017-07-19 16:59:18,786 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=25
+2017-07-19 16:59:18,786 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=26
+2017-07-19 16:59:18,786 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=27
+2017-07-19 16:59:18,787 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=28
+2017-07-19 16:59:18,790 INFO  org.dspace.content.CollectionServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_collection:collection_id=c192cee8-4856-4a15-96ef-39cc38f6e91f
+2017-07-19 16:59:18,821 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_collection:collection_id=c192cee8-4856-4a15-96ef-39cc38f6e91f
+2017-07-19 16:59:18,822 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_by_item:
+2017-07-19 16:59:18,836 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@27ddba46: 4
+2017-07-19 16:59:18,871 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_collection:collection_id=c192cee8-4856-4a15-96ef-39cc38f6e91f
+2017-07-19 16:59:24,470 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-07-19 16:59:24,572 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:59:24,572 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 16:59:24,899 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:59:24,899 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:59:28,584 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69
+2017-07-19 16:59:28,584 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:59:28,591 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@35f9006: 4
+2017-07-19 16:59:28,618 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69
+2017-07-19 16:59:28,788 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:59:28,789 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:59:33,852 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=c093d128-84e6-4420-b340-a23b1716c286
+2017-07-19 16:59:33,853 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:59:33,860 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@e023f82a: 4
+2017-07-19 16:59:33,883 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=c093d128-84e6-4420-b340-a23b1716c286
+2017-07-19 16:59:40,393 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_community:community_id=c093d128-84e6-4420-b340-a23b1716c286
+2017-07-19 16:59:40,395 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:remove_subcommunity:parent_comm_id=8e98cb96-779c-4553-b046-693d4a1d6a69,child_comm_id=c093d128-84e6-4420-b340-a23b1716c286
+2017-07-19 16:59:40,399 WARN  org.dspace.discovery.IndexEventConsumer @ REMOVE event, could not get object for COMMUNITY id=c093d128-84e6-4420-b340-a23b1716c286, perhaps it has been deleted.
+2017-07-19 16:59:40,493 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69
+2017-07-19 16:59:40,494 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-19 16:59:40,503 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@35f9006: 4
+2017-07-19 16:59:40,548 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69
+2017-07-19 16:59:40,649 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:59:40,649 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 16:59:44,626 INFO  org.dspace.content.CommunityServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:add_collection:community_id=8e98cb96-779c-4553-b046-693d4a1d6a69,collection_id=e13a39fc-9ef9-4114-9ff9-7b96b71c9a4a
+2017-07-19 16:59:44,629 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2017-07-19 16:59:44,649 INFO  org.dspace.content.CollectionServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_collection:collection_id=e13a39fc-9ef9-4114-9ff9-7b96b71c9a4a,handle=CONCYTEC/8
+2017-07-19 16:59:44,715 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: CONCYTEC/8 to Index
+2017-07-19 16:59:46,924 INFO  org.dspace.eperson.GroupServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:create_group:group_id=6ba333a0-6942-4e5e-890f-9368bc67cf5c
+2017-07-19 16:59:46,926 INFO  org.dspace.eperson.GroupServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_group:group_id=6ba333a0-6942-4e5e-890f-9368bc67cf5c
+2017-07-19 16:59:46,929 INFO  org.dspace.eperson.GroupServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_group:group_id=6ba333a0-6942-4e5e-890f-9368bc67cf5c
+2017-07-19 16:59:46,946 INFO  org.dspace.content.CollectionServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_collection:collection_id=e13a39fc-9ef9-4114-9ff9-7b96b71c9a4a
+2017-07-19 16:59:46,972 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: CONCYTEC/8 to Index
+2017-07-19 16:59:53,108 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=40
+2017-07-19 16:59:53,122 INFO  org.dspace.content.CollectionServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_collection:collection_id=e13a39fc-9ef9-4114-9ff9-7b96b71c9a4a
+2017-07-19 16:59:55,241 INFO  org.dspace.eperson.GroupServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_group:group_id=6ba333a0-6942-4e5e-890f-9368bc67cf5c
+2017-07-19 16:59:58,844 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=41
+2017-07-19 16:59:58,847 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=42
+2017-07-19 16:59:58,848 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=43
+2017-07-19 16:59:58,848 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=44
+2017-07-19 16:59:58,848 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=45
+2017-07-19 16:59:58,848 INFO  org.dspace.content.MetadataValueServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:delete_metadata_value: metadata_value_id=46
+2017-07-19 16:59:58,852 INFO  org.dspace.content.CollectionServiceImpl @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:update_collection:collection_id=e13a39fc-9ef9-4114-9ff9-7b96b71c9a4a
+2017-07-19 16:59:58,892 INFO  org.dspace.app.webui.servlet.HandleServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_collection:collection_id=e13a39fc-9ef9-4114-9ff9-7b96b71c9a4a
+2017-07-19 16:59:58,894 INFO  org.dspace.browse.BrowseEngine @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:browse_by_item:
+2017-07-19 16:59:58,904 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@5726ff4c: 4
+2017-07-19 16:59:58,928 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_collection:collection_id=e13a39fc-9ef9-4114-9ff9-7b96b71c9a4a
+2017-07-19 17:00:01,578 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-07-19 17:00:01,634 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 17:00:01,634 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-19 17:00:01,753 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 17:00:01,754 INFO  org.dspace.usage.LoggerUsageEventListener @ damachi@neumann.edu.pe:session_id=81CA9CEF20402DA5DA5DCE28EC33C827:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-19 17:02:42,243 INFO  org.dspace.importer.external.service.ImportService @ Loading 1 import sources.
+2017-07-19 17:02:43,157 INFO  org.dspace.core.LoggerServiceImpl @ Using dspace provided log configuration (log.init.config)
+2017-07-19 17:02:43,157 INFO  org.dspace.core.LoggerServiceImpl @ Loading: C:\dspace/config/log4j.properties
+2017-07-19 17:06:57,645 INFO  org.dspace.importer.external.service.ImportService @ Loading 1 import sources.
+2017-07-19 17:06:58,489 INFO  org.dspace.core.LoggerServiceImpl @ Using dspace provided log configuration (log.init.config)
+2017-07-19 17:06:58,490 INFO  org.dspace.core.LoggerServiceImpl @ Loading: C:\dspace/config/log4j.properties
+2017-07-19 17:07:00,062 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:C:\dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-07-19 17:07:00,117 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2017-07-19 17:07:00,162 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-07-19 17:07:00,340 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-07-19 17:07:00,365 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2017-07-19 17:07:00,719 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-07-19 17:07:00,728 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2017-07-19 17:07:00,731 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2017-07-19 17:07:00,734 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2017-07-19 17:07:00,791 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:C:/dspace/config/hibernate.cfg.xml
+2017-07-19 17:07:00,875 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2017-07-19 17:07:01,205 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2017-07-19 17:07:01,227 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-19 17:07:01,239 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@4dab0742
+2017-07-19 17:07:01,239 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3936761f
+2017-07-19 17:07:01,883 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.eperson.Group2GroupCache
+2017-07-19 17:07:01,883 WARN  org.hibernate.mapping.RootClass @ HHH000038: Composite-id class does not override equals(): org.dspace.checker.MostRecentChecksum
+2017-07-19 17:07:01,884 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.checker.MostRecentChecksum
+2017-07-19 17:07:01,892 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-19 17:07:01,900 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2017-07-19 17:07:01,968 WARN  net.sf.ehcache.config.ConfigurationFactory @ No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/dspace/lib/ehcache-core-2.4.3.jar!/ehcache-failsafe.xml
+2017-07-19 17:07:01,994 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "C:\Users\bender\AppData\Local\Temp\" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@1e6ab647.
+The diskStore path for this CacheManager will be set to C:\Users\bender\AppData\Local\Temp\\ehcache_auto_created_1500509221994.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2017-07-19 17:07:01,996 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-07-19 17:07:02,004 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-07-19 17:07:02,099 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-07-19 17:07:02,100 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-07-19 17:07:02,149 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataSchema]; using defaults.
+2017-07-19 17:07:02,534 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataField]; using defaults.
+2017-07-19 17:07:02,916 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2017-07-19 17:07:02,916 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2017-07-19 17:07:02,933 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2017-07-19 17:07:02,933 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2017-07-19 17:07:02,942 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2017-07-19 17:07:02,942 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2017-07-19 17:07:02,949 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2017-07-19 17:07:02,949 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2017-07-19 17:07:02,956 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2017-07-19 17:07:02,956 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2017-07-19 17:07:02,962 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2017-07-19 17:07:02,962 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2017-07-19 17:07:02,976 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2017-07-19 17:07:02,976 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2017-07-19 17:07:02,984 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2017-07-19 17:07:02,984 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2017-07-19 17:07:02,991 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2017-07-19 17:07:02,991 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2017-07-19 17:07:03,002 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2017-07-19 17:07:03,002 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2017-07-19 17:07:03,009 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2017-07-19 17:07:03,009 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2017-07-19 17:07:03,016 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2017-07-19 17:07:03,016 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2017-07-19 17:07:03,022 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2017-07-19 17:07:03,022 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2017-07-19 17:07:03,029 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2017-07-19 17:07:03,029 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2017-07-19 17:07:03,037 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2017-07-19 17:07:03,037 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2017-07-19 17:07:03,045 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2017-07-19 17:07:03,045 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2017-07-19 17:07:03,051 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2017-07-19 17:07:03,051 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2017-07-19 17:07:03,057 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2017-07-19 17:07:03,057 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2017-07-19 17:07:03,066 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2017-07-19 17:07:03,066 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2017-07-19 17:07:03,071 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2017-07-19 17:07:03,072 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2017-07-19 17:07:03,077 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2017-07-19 17:07:03,077 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2017-07-19 17:07:03,083 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2017-07-19 17:07:03,083 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2017-07-19 17:07:03,091 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2017-07-19 17:07:03,091 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2017-07-19 17:07:03,099 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2017-07-19 17:07:03,099 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2017-07-19 17:07:03,107 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2017-07-19 17:07:03,107 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2017-07-19 17:07:03,117 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2017-07-19 17:07:03,117 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2017-07-19 17:07:03,125 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2017-07-19 17:07:03,126 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2017-07-19 17:07:03,140 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2017-07-19 17:07:03,141 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2017-07-19 17:07:03,151 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2017-07-19 17:07:03,151 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2017-07-19 17:07:03,157 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2017-07-19 17:07:03,158 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2017-07-19 17:07:03,164 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2017-07-19 17:07:03,164 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2017-07-19 17:07:03,170 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2017-07-19 17:07:03,170 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2017-07-19 17:07:03,176 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2017-07-19 17:07:03,176 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2017-07-19 17:07:03,181 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2017-07-19 17:07:03,182 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2017-07-19 17:07:03,191 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2017-07-19 17:07:03,191 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2017-07-19 17:07:03,197 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2017-07-19 17:07:03,197 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2017-07-19 17:07:03,202 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2017-07-19 17:07:03,203 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2017-07-19 17:07:03,208 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2017-07-19 17:07:03,208 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2017-07-19 17:07:03,213 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2017-07-19 17:07:03,214 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2017-07-19 17:07:03,219 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2017-07-19 17:07:03,219 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2017-07-19 17:07:03,235 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2017-07-19 17:07:03,236 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]

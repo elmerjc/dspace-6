@@ -1,0 +1,245 @@
+2017-07-24 09:02:01,934 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 09:02:01,996 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-24 09:02:02,779 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-24 09:02:02,780 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-24 09:02:03,112 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:02:03,114 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:02:03,117 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:02:03,117 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:02:04,159 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 09:02:04,168 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-24 09:02:04,188 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-24 09:02:04,188 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-24 09:02:04,218 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:02:04,218 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:02:04,267 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:02:04,267 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:02:05,861 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 09:02:05,869 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-24 09:02:05,888 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-24 09:02:05,888 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-24 09:02:06,188 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:02:06,188 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:02:06,218 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:02:06,219 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:06:23,817 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 09:06:23,828 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-24 09:06:23,846 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-24 09:06:23,846 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-24 09:06:25,827 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:06:25,827 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:06:25,894 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:06:25,895 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:36:06,013 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 09:36:06,024 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-24 09:36:06,047 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-24 09:36:06,047 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-24 09:36:06,705 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:36:06,706 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:36:06,726 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:36:06,726 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:36:58,904 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 09:36:58,912 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-24 09:36:58,954 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-24 09:36:58,954 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-24 09:36:59,356 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:36:59,356 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:36:59,385 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:36:59,386 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:37:08,842 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 09:37:08,848 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-24 09:37:08,867 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-24 09:37:08,868 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-24 09:37:08,957 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:37:08,957 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:37:08,962 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:37:08,965 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:41:28,349 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 09:41:28,362 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-24 09:41:28,383 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-24 09:41:28,384 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-24 09:41:28,709 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:41:28,711 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 09:41:28,800 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 09:41:28,801 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 10:02:51,772 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 10:02:51,788 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-24 10:02:52,751 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-24 10:02:52,751 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-24 10:02:52,841 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 10:02:52,841 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 10:02:52,896 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 10:02:52,896 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 10:08:46,895 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 10:08:46,909 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-24 10:08:47,595 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-24 10:08:47,596 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-24 10:08:47,802 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 10:08:47,802 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 10:08:47,814 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 10:08:47,815 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 10:09:05,141 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-24 10:09:05,147 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 10:09:05,164 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@4036e498: 4
+2017-07-24 10:09:05,207 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=10d9c498-292b-4dff-99cb-2211e00f4955
+2017-07-24 10:09:05,423 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 10:09:05,423 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 10:18:16,430 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 10:18:16,441 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-24 10:18:16,465 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-24 10:18:16,465 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-24 10:18:16,515 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 10:18:16,517 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 10:18:16,541 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 10:18:16,541 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8EA54D6DFFB1B866E7296A608BDF736A:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 15:19:02,971 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0BE74B9BAEC5EB1EF3E948970557DA64:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 15:19:02,990 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-24 15:19:03,935 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-24 15:19:03,936 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-24 15:19:04,134 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=0BE74B9BAEC5EB1EF3E948970557DA64:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 15:19:04,134 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=0BE74B9BAEC5EB1EF3E948970557DA64:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 15:19:04,174 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=0BE74B9BAEC5EB1EF3E948970557DA64:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 15:19:04,175 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=0BE74B9BAEC5EB1EF3E948970557DA64:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 15:48:16,381 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:C:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-07-24 15:48:16,413 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2017-07-24 15:48:16,447 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-07-24 15:48:16,611 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-07-24 15:48:16,638 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2017-07-24 15:48:16,918 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-07-24 15:48:16,930 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2017-07-24 15:48:16,935 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2017-07-24 15:48:16,938 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2017-07-24 15:48:17,019 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:C:/dspace/config/hibernate.cfg.xml
+2017-07-24 15:48:17,138 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2017-07-24 15:48:17,446 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2017-07-24 15:48:17,475 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-24 15:48:17,493 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@3435f31c
+2017-07-24 15:48:17,494 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7b004ad3
+2017-07-24 15:48:17,976 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.eperson.Group2GroupCache
+2017-07-24 15:48:17,977 WARN  org.hibernate.mapping.RootClass @ HHH000038: Composite-id class does not override equals(): org.dspace.checker.MostRecentChecksum
+2017-07-24 15:48:17,977 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.checker.MostRecentChecksum
+2017-07-24 15:48:17,990 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-24 15:48:18,002 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2017-07-24 15:48:18,107 WARN  net.sf.ehcache.config.ConfigurationFactory @ No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.5/webapps/jspui/WEB-INF/lib/ehcache-core-2.4.3.jar!/ehcache-failsafe.xml
+2017-07-24 15:48:18,121 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@687efccd.
+The diskStore path for this CacheManager will be set to C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp\ehcache_auto_created_1500936498121.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2017-07-24 15:48:18,124 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-07-24 15:48:18,129 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-07-24 15:48:18,176 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-07-24 15:48:18,177 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-07-24 15:48:18,227 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataSchema]; using defaults.
+2017-07-24 15:48:18,600 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataField]; using defaults.
+2017-07-24 15:48:18,902 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2017-07-24 15:48:18,903 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2017-07-24 15:48:18,921 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2017-07-24 15:48:18,922 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2017-07-24 15:48:18,929 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2017-07-24 15:48:18,929 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2017-07-24 15:48:18,935 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2017-07-24 15:48:18,936 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2017-07-24 15:48:18,943 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2017-07-24 15:48:18,943 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2017-07-24 15:48:18,949 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2017-07-24 15:48:18,949 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2017-07-24 15:48:18,956 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2017-07-24 15:48:18,956 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2017-07-24 15:48:18,962 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2017-07-24 15:48:18,962 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2017-07-24 15:48:18,969 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2017-07-24 15:48:18,969 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2017-07-24 15:48:18,975 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2017-07-24 15:48:18,975 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2017-07-24 15:48:18,981 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2017-07-24 15:48:18,981 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2017-07-24 15:48:18,986 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2017-07-24 15:48:18,987 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2017-07-24 15:48:18,992 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2017-07-24 15:48:18,992 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2017-07-24 15:48:18,999 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2017-07-24 15:48:18,999 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2017-07-24 15:48:19,005 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2017-07-24 15:48:19,005 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2017-07-24 15:48:19,011 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2017-07-24 15:48:19,011 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2017-07-24 15:48:19,017 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2017-07-24 15:48:19,017 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2017-07-24 15:48:19,023 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2017-07-24 15:48:19,023 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2017-07-24 15:48:19,029 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2017-07-24 15:48:19,030 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2017-07-24 15:48:19,035 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2017-07-24 15:48:19,035 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2017-07-24 15:48:19,041 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2017-07-24 15:48:19,041 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2017-07-24 15:48:19,047 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2017-07-24 15:48:19,047 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2017-07-24 15:48:19,054 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2017-07-24 15:48:19,054 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2017-07-24 15:48:19,061 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2017-07-24 15:48:19,061 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2017-07-24 15:48:19,067 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2017-07-24 15:48:19,067 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2017-07-24 15:48:19,073 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2017-07-24 15:48:19,073 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2017-07-24 15:48:19,082 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2017-07-24 15:48:19,082 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2017-07-24 15:48:19,088 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2017-07-24 15:48:19,088 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2017-07-24 15:48:19,093 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2017-07-24 15:48:19,093 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2017-07-24 15:48:19,100 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2017-07-24 15:48:19,100 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2017-07-24 15:48:19,105 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2017-07-24 15:48:19,105 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2017-07-24 15:48:19,111 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2017-07-24 15:48:19,111 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2017-07-24 15:48:19,117 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2017-07-24 15:48:19,118 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2017-07-24 15:48:19,123 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2017-07-24 15:48:19,123 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2017-07-24 15:48:19,129 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2017-07-24 15:48:19,129 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2017-07-24 15:48:19,134 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2017-07-24 15:48:19,134 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2017-07-24 15:48:19,139 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2017-07-24 15:48:19,140 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2017-07-24 15:48:19,145 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2017-07-24 15:48:19,145 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2017-07-24 15:48:19,150 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2017-07-24 15:48:19,150 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2017-07-24 15:48:19,156 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2017-07-24 15:48:19,156 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2017-07-24 15:48:19,161 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2017-07-24 15:48:19,161 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2017-07-24 15:48:19,674 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2017-07-24 15:48:19,675 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2017-07-24 15:48:19,675 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:C:/dspace/config/GeoLiteCity.dat
+2017-07-24 15:48:19,748 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2017-07-24 15:48:23,708 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=689C0A46BF26B4DA0A8E9FAD18141750:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 15:48:24,047 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-24 15:48:24,851 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-24 15:48:24,851 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-24 15:48:25,480 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=689C0A46BF26B4DA0A8E9FAD18141750:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 15:48:25,498 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=689C0A46BF26B4DA0A8E9FAD18141750:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 15:48:25,522 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  C:\dspace\config\spiders\agents\example
+2017-07-24 15:48:25,523 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  C:\dspace\config\spiders\agents\iplists.com-non_engines
+2017-07-24 15:48:25,528 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: C:\dspace\config\spiders\iplists.com-altavista.txt
+2017-07-24 15:48:25,529 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: C:\dspace\config\spiders\iplists.com-excite.txt
+2017-07-24 15:48:25,534 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: C:\dspace\config\spiders\iplists.com-google.txt
+2017-07-24 15:48:25,541 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: C:\dspace\config\spiders\iplists.com-infoseek.txt
+2017-07-24 15:48:25,544 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: C:\dspace\config\spiders\iplists.com-inktomi.txt
+2017-07-24 15:48:25,544 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: C:\dspace\config\spiders\iplists.com-lycos.txt
+2017-07-24 15:48:25,563 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: C:\dspace\config\spiders\iplists.com-misc.txt
+2017-07-24 15:48:25,564 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  C:\dspace\config\spiders\domains\example
+2017-07-24 15:48:25,609 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=689C0A46BF26B4DA0A8E9FAD18141750:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 15:48:25,612 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=689C0A46BF26B4DA0A8E9FAD18141750:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 15:48:35,123 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0BE74B9BAEC5EB1EF3E948970557DA64:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-07-24 15:48:35,136 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2017-07-24 15:48:35,219 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-top_es.html (The system cannot find the file specified)
+2017-07-24 15:48:35,220 WARN  org.dspace.core.NewsServiceImpl @ news_read: C:\dspace\config\news-side_es.html (The system cannot find the file specified)
+2017-07-24 15:48:35,317 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=0BE74B9BAEC5EB1EF3E948970557DA64:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 15:48:35,317 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=0BE74B9BAEC5EB1EF3E948970557DA64:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87db4bd9-79ce-49e6-9511-e98e47d540aa
+2017-07-24 15:48:35,348 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=0BE74B9BAEC5EB1EF3E948970557DA64:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec
+2017-07-24 15:48:35,349 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=0BE74B9BAEC5EB1EF3E948970557DA64:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9111ec27-0a26-4fd6-812f-33b38dea63ec

@@ -1,0 +1,15 @@
+select 
+	substring(bs.internal_id, 1, 2) || '/' || 
+  	substring(bs.internal_id, 3, 2) || '/' || 
+  	substring(bs.internal_id, 5, 2) || '/' || 
+  	bs.internal_id  || '.' ||
+    fe.extension
+from bitstream bs
+inner join fileextension fe on bs.bitstream_format_id = fe.bitstream_format_id
+where fe.extension = 'pdf'
+-- inner join bundle2bitstream b2b on b2b.bitstream_id = bs.uuid
+-- inner join bundle b on b.uuid = b2b.bundle_id
+-- inner join item2bundle i2b on i2b.bundle_id = b.uuid
+-- inner join handle h on i2b.item_id = h.resource_id
+-- where h.handle = 'NEUMANN/14' and bs.sequence_id =1; 
+
